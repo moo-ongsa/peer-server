@@ -1,0 +1,17 @@
+{
+  "name": "peer server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "dependencies": {
+    "peer": "^0.6.1"
+  },
+  "engines": {
+    "node": "18.4.0",
+    "npm": "8.12.1"
+  }
+}
