@@ -4,8 +4,8 @@
   "description": "",
   "main": "server.js",
   "scripts": {
-    "start": "node server.js",
-    "dev": "node server.js"
+    "start": "peerjs --port 9000 --key peerjs --path /cather",
+    "dev": "peerjs --port 9000 --key peerjs --path /cather"
   },
   "dependencies": {
     "peer": "^0.6.1"
